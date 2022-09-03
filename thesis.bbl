@@ -1,0 +1,391 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{chamoni2019wirtschaftsinformatik}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1bb1e844d945823ee9d1a9f9dc9f326}{%
+           family={Chamoni},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=396bf55324c6fa67f75b2be4395722b5}{%
+           family={Gronau},
+           familyi={G\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8cdc40448cfff3a37807d63b1f93f1b2}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a1bcd43260774e6343909fd0cbfea2bf}{%
+           family={Kliewer},
+           familyi={K\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=de3683be35e848d38e7928cc1764e37c}{%
+           family={Leimeister},
+           familyi={L\bibinitperiod},
+           given={Jan\bibnamedelima Marco},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=84288b4843b0eee690608ce9797a5bbb}{%
+           family={Overhage},
+           familyi={O\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Berlin : GITO}%
+      }
+      \strng{namehash}{a1bb1e844d945823ee9d1a9f9dc9f326}
+      \strng{fullhash}{a1bb1e844d945823ee9d1a9f9dc9f326}
+      \strng{bibnamehash}{a1bb1e844d945823ee9d1a9f9dc9f326}
+      \strng{authorbibnamehash}{a1bb1e844d945823ee9d1a9f9dc9f326}
+      \strng{authornamehash}{a1bb1e844d945823ee9d1a9f9dc9f326}
+      \strng{authorfullhash}{a1bb1e844d945823ee9d1a9f9dc9f326}
+      \strng{editorbibnamehash}{3bc491c0d62c20f3827847ed13646f30}
+      \strng{editornamehash}{3bc491c0d62c20f3827847ed13646f30}
+      \strng{editorfullhash}{1621f725fae7318d11b66b4aa2642f81}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Enzyklopädie der Wirtschaftsinformatik -- Online-Lexikon}
+      \field{note}{[Online; Stand 2. September 2022]}
+      \field{title}{Wirtschaftsinformatik-Berufe}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://wi-lex.de/index.php/lexikon/uebergreifender-teil/disziplinen-der-wi/wirtschaftsinformatik/wirtschaftsinformatik-berufe/
+      \endverb
+      \verb{url}
+      \verb https://wi-lex.de/index.php/lexikon/uebergreifender-teil/disziplinen-der-wi/wirtschaftsinformatik/wirtschaftsinformatik-berufe/
+      \endverb
+    \endentry
+    \entry{gabriel1979programmierungsprobleme}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=409cd2db46eb91b834e1a5809e8129d3}{%
+           family={Gabriel},
+           familyi={G\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Gesamthochschule Duisburg, Fachbereich 05 - Wirtschaftswissenschaft}%
+      }
+      \strng{namehash}{409cd2db46eb91b834e1a5809e8129d3}
+      \strng{fullhash}{409cd2db46eb91b834e1a5809e8129d3}
+      \strng{bibnamehash}{409cd2db46eb91b834e1a5809e8129d3}
+      \strng{authorbibnamehash}{409cd2db46eb91b834e1a5809e8129d3}
+      \strng{authornamehash}{409cd2db46eb91b834e1a5809e8129d3}
+      \strng{authorfullhash}{409cd2db46eb91b834e1a5809e8129d3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aufbau gemischt-ganzzahliger linearer Programmierungsprobleme bei logischen Verknüpfungen und Entwurf effizienter heuristischer Algorithmen zu ihrer Lösung}
+      \field{type}{phdthesis}
+      \field{year}{1979}
+      \field{dateera}{ce}
+    \endentry
+    \entry{heinrich2011wirtschaftsinformatik}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e2cb48f1c3e64887af276707500ca38c}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Lutz\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f6ad4c4e19b07236a219903537d52cd}{%
+           family={Heinzl},
+           familyi={H\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35318222b4833831aa3cfb5aeb206dc7}{%
+           family={Riedl},
+           familyi={R\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{2ffc869f3da3f36c2a4c71af9ee21981}
+      \strng{fullhash}{2ffc869f3da3f36c2a4c71af9ee21981}
+      \strng{bibnamehash}{2ffc869f3da3f36c2a4c71af9ee21981}
+      \strng{authorbibnamehash}{2ffc869f3da3f36c2a4c71af9ee21981}
+      \strng{authornamehash}{2ffc869f3da3f36c2a4c71af9ee21981}
+      \strng{authorfullhash}{2ffc869f3da3f36c2a4c71af9ee21981}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wirtschaftsinformatik}
+      \field{year}{2011}
+    \endentry
+    \entry{hinterhuber1997kundenzufriedenheit}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=db082c3fdd9f72807a375d3d08d158bc}{%
+           family={Hinterhuber},
+           familyi={H\bibinitperiod},
+           given={Hans\bibnamedelima Hartmann},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=921a6cd423956d6c38ef8b15acc0b83d}{%
+           family={Bailom},
+           familyi={B\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a322ed889f3efb62904d2bb65319466}{%
+           family={Handlbauer},
+           familyi={H\bibinitperiod},
+           given={Gernot},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=753ca2df016f8963a9052291832cc08d}{%
+           family={Matzler},
+           familyi={M\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a46e05a0e5c89169385fbc7a3b3dd7d9}
+      \strng{fullhash}{df6e3e60745bc75426420697e00c862f}
+      \strng{bibnamehash}{a46e05a0e5c89169385fbc7a3b3dd7d9}
+      \strng{authorbibnamehash}{a46e05a0e5c89169385fbc7a3b3dd7d9}
+      \strng{authornamehash}{a46e05a0e5c89169385fbc7a3b3dd7d9}
+      \strng{authorfullhash}{df6e3e60745bc75426420697e00c862f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kundenzufriedenheit durch Kernkompetenzen}
+      \field{year}{1997}
+    \endentry
+    \entry{kornmeier2007wissenschaftstheorie}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b1d267ded98253901436199cf4533e6}{%
+           family={Kornmeier},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Physica Verlag Heidelberg}%
+      }
+      \strng{namehash}{6b1d267ded98253901436199cf4533e6}
+      \strng{fullhash}{6b1d267ded98253901436199cf4533e6}
+      \strng{bibnamehash}{6b1d267ded98253901436199cf4533e6}
+      \strng{authorbibnamehash}{6b1d267ded98253901436199cf4533e6}
+      \strng{authornamehash}{6b1d267ded98253901436199cf4533e6}
+      \strng{authorfullhash}{6b1d267ded98253901436199cf4533e6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wissenschaftstheorie und wissenschaftliches Arbeiten}
+      \field{year}{2007}
+    \endentry
+    \entry{lehman2022biblatex}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=97afecc8539f253db93a1c737d62212c}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93c71fed62527d4c8c6ae13ee771fcdd}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f551f4df6b727289e225343a679ca7ab}{%
+           family={Boruvka},
+           familyi={B\bibinitperiod},
+           given={Audrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=518f52ea2d73db1cfac0095db0482363}{%
+           family={Kime},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {CTAN Comprehensive \TeX Archive Network}%
+      }
+      \strng{namehash}{34e4cbaf0989c9ce668a625f61e8360c}
+      \strng{fullhash}{2514170cc2ccce6194b9ec9f5b59aea7}
+      \strng{bibnamehash}{34e4cbaf0989c9ce668a625f61e8360c}
+      \strng{authorbibnamehash}{34e4cbaf0989c9ce668a625f61e8360c}
+      \strng{authornamehash}{34e4cbaf0989c9ce668a625f61e8360c}
+      \strng{authorfullhash}{2514170cc2ccce6194b9ec9f5b59aea7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{howpublished}{\url{https://ctan.org/pkg/biblatex}}
+      \field{month}{7}
+      \field{title}{Bib\LaTeX -- Sophisticated Bibliographies in \LaTeX}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \field{dateera}{ce}
+    \endentry
+    \entry{schauer2008wirtschaftsinformatik}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=689071f1ccaea11d3e4246f265b9c967}{%
+           family={Schauer},
+           familyi={S\bibinitperiod},
+           given={Carola},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4367e4a3034e524e33d83a4a06fed290}{%
+           family={Schauer},
+           familyi={S\bibinitperiod},
+           given={Hanno},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{bc95ef871d863f491555d63b86ddb4df}
+      \strng{fullhash}{bc95ef871d863f491555d63b86ddb4df}
+      \strng{bibnamehash}{bc95ef871d863f491555d63b86ddb4df}
+      \strng{authorbibnamehash}{bc95ef871d863f491555d63b86ddb4df}
+      \strng{authornamehash}{bc95ef871d863f491555d63b86ddb4df}
+      \strng{authorfullhash}{bc95ef871d863f491555d63b86ddb4df}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Multikonferenz Wirtschaftsinformatik}
+      \field{title}{Die Wirtschaftsinformatik im Spannungsfeld zwischen Vielfalt und Profilbildung: Auf der Suche nach den Kernkompetenzen einer vielfältigen Disziplin.}
+      \field{year}{2008}
+      \field{pages}{1521\bibrangedash 1538}
+      \range{pages}{18}
+    \endentry
+    \entry{scheer2003geschaftsmodelle}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a29a2e1ef0db2448370bd04803f648f5}{%
+           family={Scheer},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09787a1f849992d86c04935f0577f266}{%
+           family={Deelmann},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51ec38edaa291ff068b8b32d4374c57f}{%
+           family={Loos},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Johannes Gutenberg Universität Mainz}%
+      }
+      \strng{namehash}{a7fec06ab2be028ebbea15010f4c08fc}
+      \strng{fullhash}{a7fec06ab2be028ebbea15010f4c08fc}
+      \strng{bibnamehash}{a7fec06ab2be028ebbea15010f4c08fc}
+      \strng{authorbibnamehash}{a7fec06ab2be028ebbea15010f4c08fc}
+      \strng{authornamehash}{a7fec06ab2be028ebbea15010f4c08fc}
+      \strng{authorfullhash}{a7fec06ab2be028ebbea15010f4c08fc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geschäftsmodelle und internetbasierte Geschäftsmodelle-Begriffsbestimmung und Teilnehmermodell}
+      \field{type}{Forschungsreport}
+      \field{year}{2003}
+    \endentry
+    \entry{wilde2007forschungsmethoden}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b4ae6464896bf5ac3c38da3401d9bf1f}{%
+           family={Wilde},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b7024ad91d26df00a73444c3028e564}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4965839d1a1cb5d8e94e9a4a16ad6ab9}
+      \strng{fullhash}{4965839d1a1cb5d8e94e9a4a16ad6ab9}
+      \strng{bibnamehash}{4965839d1a1cb5d8e94e9a4a16ad6ab9}
+      \strng{authorbibnamehash}{4965839d1a1cb5d8e94e9a4a16ad6ab9}
+      \strng{authornamehash}{4965839d1a1cb5d8e94e9a4a16ad6ab9}
+      \strng{authorfullhash}{4965839d1a1cb5d8e94e9a4a16ad6ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wirtschaftsinformatik}
+      \field{number}{4}
+      \field{title}{Forschungsmethoden der Wirtschaftsinformatik}
+      \field{volume}{49}
+      \field{year}{2007}
+      \field{pages}{280\bibrangedash 287}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,109 @@
+\chapter{Stilvorgaben}
+\section{Allgemeine Stilvorgaben}
+
+
+% Ok
+Unter dem Satzspiegel wird die vom gewöhnlichen Text inklusive Fußnoten und von den Abbildungen bzw. Tabellen eingenommene Fläche einer bedruckten Seite verstanden. Sonstige Angaben und Textzusätze wie etwa eine Kopf- oder Fußzeile und die Seitenzahlen (Pagina) gehören nicht zum Satzspiegel und laufen außerhalb dieses Raumes.
+
+% Ok
+Für Arbeiten an der EUFH sind für den Satzspiegel folgende Maße verbindlich: Der linke Rand muss 2,5 cm, der rechte Seitenrand 3,5 cm, der obere Rand 2,5 cm und der untere Rand 2 cm breit gewählt werden.
+
+
+
+[\ldots] 
+
+% Ok
+Die Nummerierung wird üblicherweise in einer einzeiligen Kopfzeile - mittig oder rechts - vorgenommen. 
+% Nicht ok
+Titel- bzw. Deckblatt werden bei der Seitennummerierung mitgezählt, aber nicht paginiert. Der Text beginnt mit der Einleitung (Seite 1) und wird mit arabischen Ziffern nummeriert; für die zuvor vorhandenen Verzeichnisse wird eine römische Seitennummerierung verwendet, für die Verzeichnisse danach wird die Nummerierung mit arabischen Ziffern fortgeführt.
+ 
+% Ok
+[\ldots] Als Grundschriftart wird Times New Roman eingesetzt. Arial ist gut geeignet für Überschriften. Als Schriftgröße ist 12 Punkt zu wählen. Für die Titelseite werden auch andere Schriftgrade eingesetzt. In Arbeiten wird standardmäßig ein Zeilenabstand von 1,5 Zeilen verwendet. Der Standardtext wird im Blocksatz ausgerichtet.
+
+% Nicht ok
+Vor Überschriften empfiehlt sich ein Abstand, der eineinhalb bis zweimal so groß ist wie der Abstand von der Überschrift zum darauf folgenden Text. Mathematische Formeln werden üblicherweise linksbündig eingerückt und rechtsbündig nummeriert.
+
+[\ldots]
+
+% Nicht ok
+Jedes Kapitel der ersten Gliederungsebene sollte nach Möglichkeit auf einer neuen Seite beginnen. Bei Seitenumbrüchen ist des Weiteren zu beachten, dass keine einzelnen Zeilen eines Absatzes auf der folgenden oder der vorangehenden Seite entstehen. Die vereinsamte erste Zeile eines Absatzes auf dem unteren Ende der Seite wird im Fachjargon Schusterjunge genannt; Hurenkind wird die letzte Zeile eines Absatzes auf der folgenden Seite genannt.
+
+
+\chapter{Beispiele}
+
+\section{Literaturquellen}
+
+
+Wir zeigen Beispiele von Quellverweise auf ein Buch (\cite{heinrich2011wirtschaftsinformatik}),
+einen Zeitschriftenbeitrag (\cite{wilde2007forschungsmethoden}),
+einen Konferenzbeitrag (\cite{schauer2008wirtschaftsinformatik}),
+einen Buchbeitrag (\cite{chamoni2019wirtschaftsinformatik}, Sonderfall, weil online veröffentlicht)),
+eine Doktorarbeit (\cite{gabriel1979programmierungsprobleme})
+und einen Forschungsreport (\cite{scheer2003geschaftsmodelle}). Das gleiche geht auch alles mit technischen Reports und Fußnoten\footnote{Vgl. \cite{lehman2022biblatex}.}. 
+
+Ein (nicht empfohlenes, aber formal korrektes) indirektes Zitat zeigen wir in der Fußnote auf Seite \pageref{text:indirektesZitat}.
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Abbildungen, Tabellen, Formeln}
+
+\subsection{Abbildungen}
+Wir sehen ein Beispiel einer Abbildungen (\ref{fig:umwegmodell} auf Seite \pageref{fig:umwegmodell}). 
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.8\textwidth]{abbildungen/umwegmodell}
+  \caption{Umwegmodell}
+  \label{fig:umwegmodell}
+\end{figure}
+
+\newpage
+\subsection{Tabellen}
+Wir sehen ein Beispiel einer Tabelle (\ref{tab:beispielstabelle} auf Seite \pageref{tab:beispielstabelle}).
+
+\begin{table}
+\centering
+\begin{tabular}{lll}
+\toprule
+
+Überschrift 1 & Überschrift 2	& Überschrift 3	\\
+
+\midrule
+
+Lorem ipsum & dolor sit amet & consetetur sadipscing \\
+elitr, sed diam  & nonumy eirmod tempor & invidunt ut labore et \\
+dolore magna aliquyam &  erat, sed diam  & voluptua.  \\
+
+\bottomrule
+\end{tabular}
+\caption{Beispielstabelle}
+\label{tab:beispielstabelle}
+\end{table}
+
+\newpage
+\subsection{Formeln}
+
+Wir sehen als Beispiel einer Formel die Berechnung einer Stichprobe für eine Grundgesamtheit unter 100.000 (\ref{formula:stichprobenumfang} auf Seite \pageref{formula:stichprobenumfang}\footnote{\label{text:indirektesZitat}Vgl. \cite{hinterhuber1997kundenzufriedenheit}, S. 75f. zitiert nach \cite{kornmeier2007wissenschaftstheorie}, S. 163.}). Formeln können ebenfalls in den Fließtext integriert werden: $n = \frac{t^2 * p * q * N}{t^2 * p * q + e^2 * (N-1)}$.
+
+\begin{equation}
+n = \frac{t^2 * p * q * N}{t^2 * p * q + e^2 * (N-1)}
+\label{formula:stichprobenumfang}
+\end{equation}
+
+\newpage
+\section{Blindtexte}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.

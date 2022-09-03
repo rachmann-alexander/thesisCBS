@@ -1,0 +1,53 @@
+
+\documentclass[12pt,oneside,titlepage]{thesis}
+\usepackage[a4paper,left=2.5cm,right=3.5cm,top=2.5cm,bottom=2cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{ngerman}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+%% BibLaTeX Pak
+\usepackage[style=authoryear, backend=biber]{biblatex}
+\addbibresource{literatur.bib}
+ 
+%% Schöne Tabellen mittels \toprule, \midrule, \bottomrule
+\usepackage{booktabs}
+
+
+\newcommand{\ArtDerArbeit}{Bachelorarbeit}
+\newcommand{\Studiengang}{Wirtschaftsinformatik}
+\newcommand{\Jahrgang}{2021}
+\newcommand{\DeutschesThema}{Lorem ipsum dolor sit amet consetetur sadipscing elitr}
+\newcommand{\EnglischesThema}{Lorem ipsum dolor sit amet, consetetur sadipscing elitr}
+\newcommand{\Betreuer}{Prof. Dr. Maria Musterfrau}
+\newcommand{\Autor}{Max Mustermann}
+\newcommand{\Wohnort}{Krefeld}
+\newcommand{\Datum}{01.01.2021}
+
+
+
+\begin{document}
+
+
+
+\pagenumbering{Roman}
+\input{titelseite}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+
+
+\pagenumbering{arabic}
+\onehalfspacing
+
+\input{content}
+
+
+
+\printbibliography
+ 
+\end{document}
