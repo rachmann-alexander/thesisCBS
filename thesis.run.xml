@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>thesis.bcf</file>
@@ -79,7 +79,7 @@
       <file>thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>literatur.bib</file>
+      <file>content/literatur.bib</file>
     </requires>
   </external>
 </requests>
