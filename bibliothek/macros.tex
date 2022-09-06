@@ -1,0 +1,24 @@
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macros für das Umschalten der arabischen und 
+% römischen Seitenzählung.
+%
+% Quelle: https://tex.stackexchange.com/questions/166416/continue-previous-roman-page-numbering-after-changing-to-arabic
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcounter{savepage}
+
+\newcommand{\roemischeSeitenzaehlung}[0]{
+	\setcounter{savepage}{\Roman{page}}
+	\pagenumbering{Roman}
+}
+
+\newcommand{\arabischeSeitenzaehlung}[0]{
+	\cleardoublepage
+	\setcounter{savepage}{\arabic{page}}
+	\pagenumbering{arabic}
+}
+ 
+

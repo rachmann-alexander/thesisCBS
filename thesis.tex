@@ -1,28 +1,18 @@
 
-\documentclass[12pt,oneside,titlepage]{thesis}
-\usepackage[a4paper,left=2.5cm,right=3.5cm,top=2.5cm,bottom=2cm]{geometry}
-\usepackage{times}
-\usepackage{setspace}
-\usepackage{ngerman}
-\usepackage[latin1]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
+\documentclass[12pt,oneside,titlepage]{book}
 
-%% BibLaTeX Pak
-\usepackage[style=authoryear, backend=biber]{biblatex}
-\addbibresource{content/literatur.bib}
- 
-%% Schöne Tabellen mittels \toprule, \midrule, \bottomrule
-\usepackage{booktabs}
-
+\input{bibliothek/pakete}
+\input{bibliothek/macros}
 
 \newcommand{\ArtDerArbeit}{Bachelorarbeit}
 \newcommand{\Studiengang}{Wirtschaftsinformatik}
+\newcommand{\Abschluss}{Bachelor of Science (BSc)}
 \newcommand{\Jahrgang}{2021}
 \newcommand{\DeutschesThema}{Lorem ipsum dolor sit amet consetetur sadipscing elitr}
 \newcommand{\EnglischesThema}{Lorem ipsum dolor sit amet, consetetur sadipscing elitr}
 \newcommand{\Betreuer}{Prof. Dr. Maria Musterfrau}
 \newcommand{\Autor}{Max Mustermann}
+\newcommand{\Immatrikulationsnummer}{123456}
 \newcommand{\Wohnort}{Krefeld}
 \newcommand{\Datum}{01.01.2021}
 
@@ -31,21 +21,19 @@
 \begin{document}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
 
-\pagenumbering{Roman}
-\input{bibliothek/titelseite}
-
-\tableofcontents
-\listoffigures
-\listoftables
+\input{bibliothek/titelseiteCBS}
+\input{bibliothek/verzeichnisse}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
 
-\pagenumbering{arabic}
 \onehalfspacing
 
 \input{content/content}
-
 
 
 \printbibliography
